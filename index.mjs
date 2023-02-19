@@ -34,11 +34,11 @@ let {description, Installation, Usage, lincense} = await inquirer
  # Project Description
 ${description}
 # Table of Contents
-#Installation  
+# Installation  
 ${Installation}
-#Usage
+# Usage
 ${Usage}
-#Lincense
+# Lincense
 ${generateLincense(lincense)}`;
 
 function generateLincense (lincense) {
