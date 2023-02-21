@@ -4,12 +4,10 @@ import fs from "fs/promises";
 
 let title = "# README Templete";
 let tableContents = `
-* [Installation](#installation)
-* [Usage] (#usage)
-* [License] (#license)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions)`
+* [Installation](#installation);
+* [Usage](#usage);
+* [License](#license);`
+
 let {description, Installation, Usage, license,} = await inquirer
 .prompt([
     {
@@ -46,7 +44,7 @@ ${tableContents}
 ${Installation}
 ## Usage
 ${Usage}
-## Lincense
+## License
 ${generateLincense(license)}`;
 
 function generateLincense (license) {
