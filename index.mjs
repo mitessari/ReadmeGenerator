@@ -7,9 +7,9 @@ let tableContents = `
 * [Installation](#installation);
 * [Usage](#usage);
 * [License](#license);`;
-let github = `<a href = https://github.com/mitessari>GitHub</a>`
-let email = `<a href = https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDXmSzkbsDVzcRRBNZHMCHKFzRXXkqlZxVTVQlhmMJqHsCBhcFgTBtcCLnQMmmjctHNhkTq>Email</a>`
-let questions = `If you have any questions please contact me at ${github} or via ${email} `
+let github = `<a href = https://github.com/mitessari>GitHub</a>`;
+let email = `<a href = mailto:mitessari@yahoo.com.br>Email</a>`
+let questions = `If you have any questions please do not hesitate to contact me on ${github} or via ${email}. `
 
 let {description, Installation, Usage, license, contributing} = await inquirer
 .prompt([

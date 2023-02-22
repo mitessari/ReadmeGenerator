@@ -15,4 +15,4 @@ a
 ## Contributing
 a
 ## Questions
-If you have any questions please contact me at <a href = https://github.com/mitessari>test</a> or via (#email) 
+If you have any questions please contact me at <a href = https://github.com/mitessari>GitHub</a> or via <a href = mailto:mitessari@yahoo.com.br>Email</a> 
